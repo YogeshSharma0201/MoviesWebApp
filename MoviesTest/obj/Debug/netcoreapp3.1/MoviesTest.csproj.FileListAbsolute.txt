@@ -1,0 +1,9 @@
+C:\Users\sharmayo\source\repos\Movies\MoviesTest\bin\Debug\netcoreapp3.1\MoviesTest.deps.json
+C:\Users\sharmayo\source\repos\Movies\MoviesTest\bin\Debug\netcoreapp3.1\MoviesTest.dll
+C:\Users\sharmayo\source\repos\Movies\MoviesTest\bin\Debug\netcoreapp3.1\MoviesTest.pdb
+C:\Users\sharmayo\source\repos\Movies\MoviesTest\obj\Debug\netcoreapp3.1\MoviesTest.csproj.AssemblyReference.cache
+C:\Users\sharmayo\source\repos\Movies\MoviesTest\obj\Debug\netcoreapp3.1\MoviesTest.AssemblyInfoInputs.cache
+C:\Users\sharmayo\source\repos\Movies\MoviesTest\obj\Debug\netcoreapp3.1\MoviesTest.AssemblyInfo.cs
+C:\Users\sharmayo\source\repos\Movies\MoviesTest\obj\Debug\netcoreapp3.1\MoviesTest.csproj.CoreCompileInputs.cache
+C:\Users\sharmayo\source\repos\Movies\MoviesTest\obj\Debug\netcoreapp3.1\MoviesTest.dll
+C:\Users\sharmayo\source\repos\Movies\MoviesTest\obj\Debug\netcoreapp3.1\MoviesTest.pdb
