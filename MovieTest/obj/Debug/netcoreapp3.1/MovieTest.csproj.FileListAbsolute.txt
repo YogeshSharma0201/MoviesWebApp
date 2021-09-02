@@ -96,3 +96,17 @@ C:\Users\sharmayo\source\repos\Movies\MovieTest\obj\Debug\netcoreapp3.1\MovieTes
 C:\Users\sharmayo\source\repos\Movies\MovieTest\obj\Debug\netcoreapp3.1\MovieTest.dll
 C:\Users\sharmayo\source\repos\Movies\MovieTest\obj\Debug\netcoreapp3.1\MovieTest.pdb
 C:\Users\sharmayo\source\repos\Movies\MovieTest\obj\Debug\netcoreapp3.1\MovieTest.genruntimeconfig.cache
+C:\Users\sharmayo\source\repos\Movies\MovieTest\bin\Debug\netcoreapp3.1\CoverletSourceRootsMapping
+C:\Users\sharmayo\source\repos\Movies\MovieTest\bin\Debug\netcoreapp3.1\Movies.deps.json
+C:\Users\sharmayo\source\repos\Movies\MovieTest\bin\Debug\netcoreapp3.1\Movies.runtimeconfig.json
+C:\Users\sharmayo\source\repos\Movies\MovieTest\bin\Debug\netcoreapp3.1\Movies.runtimeconfig.dev.json
+C:\Users\sharmayo\source\repos\Movies\MovieTest\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\sharmayo\source\repos\Movies\MovieTest\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\sharmayo\source\repos\Movies\MovieTest\bin\Debug\netcoreapp3.1\Movies.exe
+C:\Users\sharmayo\source\repos\Movies\MovieTest\bin\Debug\netcoreapp3.1\AutoFixture.dll
+C:\Users\sharmayo\source\repos\Movies\MovieTest\bin\Debug\netcoreapp3.1\AutoFixture.AutoMoq.dll
+C:\Users\sharmayo\source\repos\Movies\MovieTest\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\sharmayo\source\repos\Movies\MovieTest\bin\Debug\netcoreapp3.1\Fare.dll
+C:\Users\sharmayo\source\repos\Movies\MovieTest\bin\Debug\netcoreapp3.1\Moq.dll
+C:\Users\sharmayo\source\repos\Movies\MovieTest\bin\Debug\netcoreapp3.1\Movies.dll
+C:\Users\sharmayo\source\repos\Movies\MovieTest\bin\Debug\netcoreapp3.1\Movies.pdb

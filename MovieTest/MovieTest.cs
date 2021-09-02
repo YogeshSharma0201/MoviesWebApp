@@ -3,12 +3,13 @@ using Movies.Models;
 using Movies.Services;
 using NUnit.Framework;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace MovieTest
 {
     public class Tests
     {
-        private Mock<MovieDataContextService> _movieDataContextService;
+        private Mock<IMovieDataContextService> _movieDataContextService;
 
         [SetUp]
         public void Setup()
@@ -28,20 +29,21 @@ namespace MovieTest
                 new MovieEntity { Id = 10, Title = "WALL-E", Director = "Andrew Stanton" },
             };
 
-            _movieDataContextService = new Mock<MovieDataContextService>();
+            _movieDataContextService = new Mock<IMovieDataContextService>();
 
             _movieDataContextService.Setup(v => v.FindAll()).Returns(Movies);
 
             _movieDataContextService.Setup(v =>
-                v.FindWithPagination(It.IsAny<int>(), It.IsAny<int>())).Returns(Movies);
+                v.FindWithPagination(It.IsAny<int>(), It.IsAny<int>())).Returns(Movies.Skip(5).ToList());
         }
 
-        [TestCase(null, null)]
-        [TestCase(3, 5)]
-        public void TestMoviesFindByPage(int? pageNumber, int? pageSize)
+        [TestCase(null, null, 10)]
+        [TestCase(2, 5, 5)]
+        public void TestMoviesFindByPage(int? pageNumber, int? pageSize, int expectedOutput)
         {
             var movies = new MovieService(_movieDataContextService.Object);
 
+            Assert.AreEqual(movies.FindAll(pageNumber, pageSize).Count, expectedOutput);
         }
     }
 }
